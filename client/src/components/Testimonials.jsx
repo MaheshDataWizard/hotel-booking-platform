@@ -11,22 +11,9 @@ const Testimonials = () => {
         subTitle="Discover why discerning travelers consistently choose QuickStay for their exclusive and luxurious accommodations around the world."
       />
 
-      <div className="flex flex-col items-center text-center">
-        <h1 className="text-4xl md:text-[40px] font-playfair">
-          Customer Testimonials
-        </h1>
-        <p className="text-sm md:text-base text-gray-500/90 mt-2 max-w-[696px]">
-          Hear what our users say about us. We're always looking for ways to
-          improve. If you have a positive experience with us, leave a review.
-        </p>
-      </div>
-
       <div className="flex flex-wrap items-center justify-center gap-6 mt-20 mb-10">
         {testimonials.map((testimonial) => (
-          <div
-            key={testimonial.id}
-            className="bg-white p-6 rounded-xl shadow"
-          >
+          <div key={testimonial.id} className="bg-white p-6 rounded-xl shadow">
             <div className="flex items-center gap-3">
               <img
                 className="w-12 h-12 rounded-full"
